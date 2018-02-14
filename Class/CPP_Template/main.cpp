@@ -25,7 +25,6 @@ int main(int argc, char** argv) {
     //Process/Map inputs to outputs
     
     //Output data
-    cout<<"Hello World"<<endl;
     
     //Exit stage right!
     return 0;
