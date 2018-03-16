@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Dr Mark E. Lehr
- * Created on February 13, 2018, 1:20 PM
- * Purpose:  Create a CSC/CIS 5 Template
+ * Created on March 15th, 2018, 1:20 PM
+ * Purpose:  Hello World on the Mac
  */
 
 //System Libraries
