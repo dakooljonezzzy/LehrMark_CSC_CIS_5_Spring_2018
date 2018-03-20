@@ -25,18 +25,18 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare Variables
-    int nLoops=1000000;
+    int nLoops=1000;
     bool prime;//Determine if num2Tst is prime
   
     
     //Process/Map inputs to outputs
     for(int num2Tst=2;num2Tst<=nLoops;num2Tst++){
         prime=true;
-        for(int i=2;i<=sqrt(nLoops);i++){
+        for(int i=2;i<=sqrt(nLoops)&&prime;i++){
             prime=num2Tst==i?true&&prime:prime&&num2Tst%i;
         }
                   //Output data
-        cout<<static_cast<int>(num2Tst)
+        if(prime)cout<<static_cast<int>(num2Tst)
             <<" is "
             <<(prime?"Prime":"Not Prime")
             <<endl;
